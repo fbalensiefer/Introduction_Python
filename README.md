@@ -5,20 +5,26 @@
 Over the last decades statistical analysis becomes more and more complex. Statisticians needs for software and machines to compute large matrices with complex operations arises. Since measurement has become more accurate, storage is easy to access/ share and the awareness that tracked data can be useful later for researcher of all fields, the amount of data available is tremendous. Therefore, modern statistical software also needs handle with large dataset, while providing efficient algorithms<br>
 
 Statistics Software available:<br>
-    A. Proprietary<br>
-        - SPSS<br>
-        - STATA<br>
-        - GRETL<br>
-        - EViews<br>
-        - GAUSS<br>
-        - Matlab<br>
-        ...<br>
-    B. Open Source<br>
-        - R<br>
-        - Python<br>
-        - Julia<br>
-        - Octave<br>
-        ...<br>
+<ul>
+    <li> Proprietary</li>
+        <ul>
+        <li>SPSS</li>
+        <li>STATA</li>
+        <li>GRETL</li>
+        <li>EViews</li>
+        <li>GAUSS</li>
+        <li>Matlab</li>
+        <li>...</li>
+        </ul>
+    <li> Open Source</li>
+        <ul>
+        <li>R</li>
+        <li>Python</li>
+        <li>Julia</li>
+        <li>Octave</li>
+        <li>...</li>
+    </ul>
+</ul>
 <br>        
 Currently, *Open Source* software is very popular:
     - free to use
