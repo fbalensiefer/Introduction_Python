@@ -1,40 +1,37 @@
-# Introduction into Data Science with Python
+# Introduction to Interactive Network Graph Visualization with Python
 
-## Preface
+## Introduction:
 
-Over the last decades statistical analysis becomes more and more complex. Statisticians needs for software and machines to compute large matrices with complex operations arises. Since measurement has become more accurate, storage is easy to access/ share and the awareness that tracked data can be useful later for researcher of all fields, the amount of data available is tremendous. Therefore, modern statistical software also needs handle with large dataset, while providing efficient algorithms<br>
+Network graphs, are a powerful way to represent and analyze relationships between various entities, such as social networks, communication networks, biological systems, and more. Interactive network graph visualization in Python has gained significant popularity due to its ability to provide insights into complex data structures and make them easily understandable.
 
-Statistics Software available:<br>
-<ul>
-    <li> Proprietary</li>
-        <ul>
-        <li>SPSS</li>
-        <li>STATA</li>
-        <li>GRETL</li>
-        <li>EViews</li>
-        <li>GAUSS</li>
-        <li>Matlab</li>
-        <li>...</li>
-        </ul>
-    <li> Open Source</li>
-        <ul>
-        <li>R</li>
-        <li>Python</li>
-        <li>Julia</li>
-        <li>Octave</li>
-        <li>...</li>
-    </ul>
-</ul>
-<br>        
-Currently, *Open Source* software is very popular:
-<ul>    
-     <li>free to use</li>
-     <li>support in forums from statisticians, scientists and professionals </li>
-     <li>infinitely expandable by user-based packages</li>
-     <li>very easy to start group project since it's free</li>
-</ul>    
-Why to use <b>Python</b> ?<br>
-<b>R</b> is widely used in all fields, providing a large amount on packages and with a very responsive fan-base providing support. It's still very slow in computing, requires a lot of computing performance and is not as easy to read the code as <b>Python</b>. For example, <b>R</b>-code requires many different *brackets* depending on their usage. Mixing up these *brackets* or missing one leads to errors in the code.<br>
-Here <b>Python</b> shines with code easy to read and as a programming language mainly used to engineer software it provides a huge potential. Here the first difference appears. Since, <b>Python</b> is a programming language we first need to load packages which include functions and operations we later want to use for our analysis. For users of proprietary statistic software it might be uncontentious, to load packages to compute basic statistics.  
-<br>
-We use <b>Python</b> together with the Jupyter-Notebook Editor. Further information regarding the Editor can be found [here](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+Python, a versatile and widely-used programming language, offers numerous libraries and tools to create interactive network graph visualizations. In this introduction, we will explore the key components and popular Python libraries that enable the creation of interactive network graph visualizations.
+
+### Key Components of Interactive Network Graphs:
+
+1. **Nodes:** Nodes represent individual entities within the network. They can represent people, devices, websites, or any other object of interest in your data.
+
+2. **Edges:** Edges are the connections or relationships between nodes. They indicate how nodes are related to each other and can carry additional information, such as weight or direction.
+
+3. **Attributes:** Both nodes and edges can have attributes that provide additional information about them. These attributes can be used to color, size, or label the elements of the network.
+
+4. **Interactivity:** The power of interactive network graph visualization lies in the ability to explore and analyze the data dynamically. Users can zoom, pan, click on nodes or edges to reveal more information, and filter or highlight specific components of the network.
+
+### Popular Python Libraries for Interactive Network Graph Visualization:
+
+1. **NetworkX:** NetworkX is a Python library for the creation, manipulation, and study of complex networks. While it does not provide direct interactive visualization capabilities, it is often used to prepare and analyze network data before passing it to other libraries for visualization.
+
+2. **D3.js:** D3.js is a powerful JavaScript library for creating interactive data visualizations. Python developers often use it in conjunction with Python libraries like Flask or Dash to build web applications that display interactive network graphs.
+
+3. **Plotly:** Plotly is a Python graphing library that offers interactive network graph visualization capabilities. It is especially popular for creating web-based dashboards with interactive charts and graphs.
+
+4. **Cytoscape.js:** Cytoscape.js is a JavaScript library that specializes in network graph visualization. Python developers can use Cytoscape.js through Jupyter notebooks or web applications to create highly interactive and customizable network graphs.
+
+5. **Bokeh:** Bokeh is a Python library for creating interactive, web-ready visualizations. It can be used to build interactive network graph visualizations that can be embedded in web applications or viewed in Jupyter notebooks.
+
+6. **Pyvis:** Pyvis is a Python library specifically designed for creating interactive network graph visualizations. It is built on top of NetworkX and allows users to generate visually appealing and interactive network graphs with ease. Pyvis provides a straightforward way to add nodes, edges, and customize the appearance and interactivity of the resulting graph directly from Python code. This library is suitable for both small-scale exploratory data analysis and larger network graph visualization projects.
+
+Including Pyvis in your arsenal of tools for interactive network graph visualization with Python can make the process more efficient and user-friendly. You can use Pyvis to create visually engaging graphs and customize various aspects of the visualization to meet your specific requirements. For this reason, the focus of this repository will be on an **application on pyvis**.
+
+### Conclusion:
+
+Interactive network graph visualization with Python opens up a world of possibilities for exploring complex relationships and patterns within your data. By leveraging the right Python libraries and tools, you can create interactive network graphs that are not only informative but also engaging for your audience. In the following guides and tutorials, we will dive deeper into the practical aspects of creating such visualizations using the mentioned libraries.
