@@ -38,3 +38,4 @@ Why to use <b>Python</b> ?<br>
 Here <b>Python</b> shines with code easy to read and as a programming language mainly used to engineer software it provides a huge potential. Here the first difference appears. Since, <b>Python</b> is a programming language we first need to load packages which include functions and operations we later want to use for our analysis. For users of proprietary statistic software it might be uncontentious, to load packages to compute basic statistics.  
 <br>
 We use <b>Python</b> together with the Jupyter-Notebook Editor. Further information regarding the Editor can be found [here](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+### [Visit the Jupyter Notebook](https://nbviewer.org/github/fbalensiefer/Introduction_Python/blob/e7d48bd1cdfab9668f27057afbc1bd24913e5ace/Introduction_into_Python.ipynb)
